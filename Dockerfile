@@ -5,8 +5,8 @@ FROM node:18
 # Set the working directory in the container
 WORKDIR /main
 
-# Expose port 5000
-EXPOSE 5000
+# Expose port 3000
+EXPOSE 3000
 
 # Copy the application files into the working directory
 COPY . /main
